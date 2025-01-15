@@ -1,0 +1,38 @@
+@font-face {
+  font-family: JPNS;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  src: url("fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf");
+}
+
+html {
+  font-family: JPNS;
+  background-color: #0c0c0c;
+}
+
+h1,
+h3 {
+  margin: 0;
+  padding: 20px 0;
+  color: whitesmoke;
+  text-shadow: 3px 3px 1px black;
+}
+
+p {
+  color: whitesmoke;
+  text-shadow: 2px 2px 1px black;
+}
+body {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #ad2828;
+  padding: 0 20px 20px 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
